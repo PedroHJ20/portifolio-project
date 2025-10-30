@@ -6,6 +6,15 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center">
+          {/* SUA FOTO - ADICIONE ESTA SEÇÃO */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/foto-perfil.jpg" 
+              alt="Foto de Pedro Henrique" 
+              className="rounded-full w-48 h-48 object-cover border-4 border-white shadow-lg"
+            />
+          </div>
+          
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
             Olá, eu sou Pedro Henrique
           </h1>

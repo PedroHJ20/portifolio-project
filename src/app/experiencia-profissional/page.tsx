@@ -8,7 +8,7 @@ export default function ExperienciaProfissional() {
       tecnologias: ["Atendimento ao Público", "Organização", "Trabalho em Equipe", "Processos Administrativos"]
     },
     {
-      empresa: "Empresa Atual",
+      empresa: "HOPE - Hospital de Olhos de Pernambuco", // ← EMPRESA ATUALIZADA
       cargo: "Auxiliar de Faturamento",
       periodo: "Atual",
       descricao: "Responsável por atividades de faturamento, conferência de documentos, organização de planilhas e apoio à equipe administrativa. Desenvolvendo habilidades em processos financeiros e sistemas empresariais.",
