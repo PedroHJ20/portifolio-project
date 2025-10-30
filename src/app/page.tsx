@@ -12,7 +12,9 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Desenvolvedor em formação e apaixonado por tecnologia
           </p>
-          <div className="flex justify-center space-x-4 mb-12">
+          
+          {/* Redes Sociais */}
+          <div className="flex justify-center space-x-6 mb-12">
             <a
               href="https://github.com/PedroHJ20"
               target="_blank"
@@ -36,6 +38,7 @@ export default function Home() {
               <FaEnvelope size={24} />
             </a>
           </div>
+
           <div className="flex justify-center space-x-4">
             <Link
               href="/projetos"

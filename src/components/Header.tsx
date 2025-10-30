@@ -29,9 +29,9 @@ export default function Header() {
                 href={item.href}
                 className={`${
                   pathname === item.href
-                    ? 'text-blue-600 font-semibold'
+                    ? 'text-blue-600 font-semibold border-b-2 border-blue-600'
                     : 'text-gray-600 hover:text-blue-600'
-                } transition-colors`}
+                } transition-colors pb-1`}
               >
                 {item.label}
               </Link>
