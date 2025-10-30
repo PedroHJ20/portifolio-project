@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-blue-600">
-            MeuPortfólio
+            Pedro Henrique
           </Link>
           
           <div className="flex space-x-6">

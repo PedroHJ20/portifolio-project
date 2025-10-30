@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -6,11 +7,35 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         <div className="text-center">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
-            Olá, eu sou [Seu Nome]
+            Olá, eu sou Pedro Henrique
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Desenvolvedor Full Stack & Criador de Soluções Digitais
+            Desenvolvedor em formação e apaixonado por tecnologia
           </p>
+          <div className="flex justify-center space-x-4 mb-12">
+            <a
+              href="https://github.com/PedroHJ20"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800 text-white p-3 rounded-full hover:bg-gray-700 transition-colors"
+            >
+              <FaGithub size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pedro-henrique-03b8aa309"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors"
+            >
+              <FaLinkedin size={24} />
+            </a>
+            <a
+              href="mailto:pedrohenriquej20@gmail.com"
+              className="bg-red-500 text-white p-3 rounded-full hover:bg-red-600 transition-colors"
+            >
+              <FaEnvelope size={24} />
+            </a>
+          </div>
           <div className="flex justify-center space-x-4">
             <Link
               href="/projetos"
